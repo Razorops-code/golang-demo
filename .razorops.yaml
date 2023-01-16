@@ -1,1 +1,13 @@
-
+tasks:
+ go-sonar-job:
+     runner: sonarsource/sonar-scanner-cli
+     steps:
+   
+     - checkout    
+     - commands:
+     - |
+        sonar-scanner \
+          -Dsonar.projectKey=golang-app \
+          -Dsonar.sources=. \
+          -Dsonar.host.url=http://65.2.9.93:9000 \
+          -Dsonar.login=740b388d223622d6a095278fc61f6a8e438deb06
