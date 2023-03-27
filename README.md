@@ -20,7 +20,7 @@ This a 3 tier **To-Do List** application,  where:
 **2.a. start it with docker-compose** run `docker-compose up -d` 
 - interact directly with API thru localhost:8080 endpoint
 
-# License
+# Licenses
 
 MIT License
 
